@@ -10,7 +10,7 @@
 			theLabel = ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange','dddd'];
 			theData = [12, 19, 3, 5, 2, 3,30];
 			jChart("myChart2");
-			function jChart(id){
+			function jChart(id,data){
 				var ctx = document.getElementById(id).getContext('2d');
 				let myChart = new Chart(ctx, {
 				type: 'bar',
